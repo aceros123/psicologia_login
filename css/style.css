@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+:root{
+    --primario : #2196f3;
+    --secundario: #0075A0;
+    --medio: #0075A0;
+    --darksecundario: #00425F;
+    --darkprimario: #001B2B;
+    --blanco:#ffffff;
+}
+html{
+    font-size: 62.5%;
+    margin: 0% 10%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.page-login{
+    display:flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.row-login{
+    background-color: var(--primario);
+    flex: 1;
+    padding: 8rem 0rem;
+}
+.row-img{
+    flex:2;
+}
+.img-login{
+    height: 100vh;
+}
+.text-login{
+    font-family: 'Titan One', cursive;
+    color: var(--blanco);
+    text-align: center;
+}
+.form-login{
+    height:50%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
